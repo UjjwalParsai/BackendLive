@@ -1,0 +1,14 @@
+
+node_modules
+./venue/node_modules
+./apperals/node_modules
+./vendor/node_modules
+./apperals/node_modules
+./band/node_modules
+./caterers/node_modules
+./godhiwala/node_modules
+./makeup/node_modules
+./mehandi/node_modules
+./pandit/node_modules
+./photographer/node_modules
+./tent_decorat/node_modules
