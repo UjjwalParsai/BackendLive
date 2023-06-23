@@ -2,7 +2,11 @@ import gateway from "fast-gateway";
 import express from "express";
 
 const app=express();
-
+app.get("/",(req,res)=>{
+    res.setHeader("Access-Control-Allow-Credentials",true);
+    res.setHeader("Access-Control-Allow-Origin:*");
+    
+})
 app.use( gateway({
     routes: [{
       prefix: '/venue',
